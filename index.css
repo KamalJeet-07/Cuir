@@ -1,6 +1,6 @@
 .img-20240606-165925-1-icon1 {
   height: 116px;
-  width: 199px;
+  width: 157px;
   position: relative;
   object-fit: cover;
 }
@@ -11,7 +11,7 @@
   display: inline-block;
   min-width: 67px;
 }
-.menu-buttons {
+.home-contact {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -24,7 +24,7 @@
   display: inline-block;
   min-width: 61px;
 }
-.menu-buttons1 {
+.home-contact1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -37,12 +37,15 @@
   display: inline-block;
   min-width: 87px;
 }
-.home-parent {
+.u-s-content,
+.u-s-content-wrapper {
   margin: 0;
-  align-self: stretch;
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
+}
+.u-s-content {
+  align-self: stretch;
+  flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
   text-align: left;
@@ -50,12 +53,9 @@
   color: var(--color-black);
   font-family: var(--font-inria-serif);
 }
-.u-s-a-universities-logos-secon-inner {
-  margin: 0;
+.u-s-content-wrapper {
   flex: 1;
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-sm) 0 0;
   box-sizing: border-box;
@@ -73,13 +73,6 @@
   min-width: 117px;
   cursor: pointer;
 }
-.button1,
-.u-s-a-universities-logos-secon {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 .button1 {
   cursor: pointer;
   border: 0;
@@ -87,54 +80,128 @@
   background-color: var(--color-lightblue);
   box-shadow: var(--button-shadow);
   border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   white-space: nowrap;
 }
 .button1:hover,
 .primary-button:hover {
   background-color: var(--color-skyblue);
 }
-.u-s-a-universities-logos-secon {
-  align-self: stretch;
-  gap: 48px;
+.service-names,
+.u-k-universities {
+  display: flex;
+  align-items: flex-start;
   max-width: 100%;
 }
-.u-s-a-universities-logos-secon-wrapper {
+.u-k-universities {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 48px;
+}
+.service-names {
   width: 627px;
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-end;
   padding: 0 0 var(--padding-xl);
   box-sizing: border-box;
-  max-width: 100%;
 }
-.footer-top-inner,
-.footer-top-inner-wrapper {
+.img-20240606-165925-1-parent {
+  flex: 1;
   display: flex;
   flex-direction: row;
-  max-width: 100%;
-}
-.footer-top-inner {
-  width: 1288px;
   align-items: flex-end;
   justify-content: space-between;
+  max-width: 100%;
   gap: var(--gap-xl);
 }
-.footer-top-inner-wrapper {
+.landing-page-01-inner {
   align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-53xl) var(--padding-xl) 75px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child,
+.settling {
+  position: relative;
+  max-width: 100%;
+}
+.frame-child {
+  height: 724px;
+  width: 1398px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.settling {
+  flex: 1;
+  line-height: 150%;
+  display: inline-block;
+  z-index: 1;
+}
+.service-descriptions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-19xl);
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.abroad {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  color: #00aae0;
+  z-index: 1;
+}
+.about-content,
+.about-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.about-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-content-wrapper {
+  width: 341px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
   box-sizing: border-box;
 }
-.borcelle-school-1 {
-  height: 683px;
+.acino-your-study {
+  margin: 0;
   flex: 1;
   position: relative;
-  border-radius: var(--br-3xs);
+  line-height: 150%;
+  font-weight: 700;
+  display: inline-block;
   max-width: 100%;
-  overflow: hidden;
-  object-fit: cover;
+  z-index: 1;
+}
+.acino-your-study-abroad-experi-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 6px;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .apply-now2 {
   position: relative;
@@ -147,21 +214,20 @@
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   min-width: 117px;
 }
+.primary-button,
+.u-k-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .primary-button {
   cursor: pointer;
   border: 1px solid var(--color-black);
-  padding: var(--padding-2xl) 42px;
+  padding: var(--padding-lgi) var(--padding-17xl);
   background-color: var(--color-lightblue);
-  margin: 0 !important;
-  position: absolute;
-  bottom: 12px;
-  left: 103px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-5xs);
-  display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   white-space: nowrap;
   z-index: 1;
 }
@@ -169,50 +235,125 @@
   border: 1px solid #333;
   box-sizing: border-box;
 }
-.borcelle-school-1-parent,
-.landing-page-01-inner {
+.u-k-content {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 46px;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.frame-item {
+  width: 11px;
+  height: 7px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 37px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  z-index: 1;
+}
+.frame-container {
+  flex: 1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
+  padding: 139px 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 73px;
+  min-width: 431px;
   max-width: 100%;
 }
-.borcelle-school-1-parent {
-  flex: 1;
-  justify-content: flex-start;
-  position: relative;
+.frame-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  background-color: #c4f1ff;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 }
-.landing-page-01-inner {
+.borcelle-school-1 {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+  border-radius: 360px;
+  width: 547px;
+  height: 547px;
+  object-fit: cover;
+  z-index: 3;
+}
+.ellipse-parent {
+  height: 580px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frame-div,
+.frame-wrapper1,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper1 {
   align-self: stretch;
-  justify-content: flex-end;
-  padding: 0 var(--padding-10xs) 61px 0;
+  flex-direction: row;
+}
+.frame-div,
+.rectangle-parent {
   box-sizing: border-box;
 }
+.frame-div {
+  width: 580px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  min-width: 580px;
+}
+.rectangle-parent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  padding: var(--padding-20xl) var(--padding-18xl) 94px 93px;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}
 .our-services,
-.our-services-wrapper {
+.services {
   display: flex;
   justify-content: center;
   max-width: 100%;
 }
 .our-services {
-  margin: 0;
   width: 1126px;
   position: relative;
-  font-size: inherit;
   text-decoration: underline;
   line-height: 150%;
-  font-weight: 700;
-  font-family: inherit;
   align-items: center;
   flex-shrink: 0;
 }
-.our-services-wrapper {
+.services {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  padding: 0 var(--padding-xl) 42px var(--padding-3xl);
   box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
 }
-.frame-child {
+.rectangle-div {
   align-self: stretch;
   height: 700px;
   position: relative;
@@ -236,14 +377,10 @@
   object-fit: cover;
 }
 .study-visa {
-  margin: 0;
   flex: 1;
-  font-size: inherit;
   line-height: 49px;
   display: inline-block;
-  font-style: italic;
   font-weight: 700;
-  font-family: inherit;
 }
 .study-visa-wrapper {
   align-self: stretch;
@@ -264,7 +401,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.rectangle-parent,
+.rectangle-group,
 .we-assists-students-in-navigat-wrapper {
   display: flex;
   align-items: flex-start;
@@ -279,7 +416,7 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.rectangle-parent {
+.rectangle-group {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
@@ -287,13 +424,13 @@
   padding: var(--padding-10xs) 0 140px;
   gap: var(--gap-lg);
 }
-.frame-item,
+.frame-child1,
 .oxzk0i-1-icon {
   align-self: stretch;
   position: relative;
   border-radius: var(--br-3xs);
 }
-.frame-item {
+.frame-child1 {
   height: 700px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--color-white);
@@ -314,12 +451,8 @@
   z-index: 1;
 }
 .tourist-visa {
-  margin: 0;
   align-self: stretch;
-  font-size: inherit;
   line-height: 49px;
-  font-style: italic;
-  font-family: inherit;
 }
 .we-facilitates-travelers {
   flex: 1;
@@ -327,7 +460,7 @@
   display: inline-block;
   max-width: 100%;
 }
-.we-facilitates-travelers-in-se-wrapper {
+.u-k-universities-second-row-th {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
@@ -336,33 +469,33 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.frame-div,
-.tourist-visa-parent,
-.we-facilitates-travelers-in-se-wrapper {
+.assessment-titles,
+.assessment-types,
+.u-k-universities-second-row-th {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.tourist-visa-parent {
+.assessment-types {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-lg);
 }
-.frame-div {
+.assessment-titles {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
   padding: 0 var(--padding-mid) 0 var(--padding-lg);
   box-sizing: border-box;
 }
-.frame-inner,
-.rectangle-group {
+.frame-child2,
+.rectangle-container {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
 }
-.rectangle-group {
+.rectangle-container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -372,7 +505,7 @@
   gap: 13px;
   max-width: 100%;
 }
-.frame-inner {
+.frame-child2 {
   align-self: stretch;
   height: 700px;
   position: relative;
@@ -393,16 +526,12 @@
   object-fit: cover;
 }
 .work-visa {
-  margin: 0;
   flex: 1;
-  font-size: inherit;
   line-height: 49px;
   display: inline-block;
-  font-style: italic;
   font-weight: 700;
-  font-family: inherit;
 }
-.service-names {
+.u-k-universities-third-row-sec {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -421,51 +550,40 @@
   max-width: 100%;
   z-index: 1;
 }
-.rectangle-container,
-.service-descriptions {
-  display: flex;
-  align-items: flex-start;
-  box-sizing: border-box;
-}
-.service-descriptions {
+.u-k-universities-title {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding: 0 var(--padding-xl) 0 22px;
-  max-width: 100%;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+  box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.rectangle-container {
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  flex-direction: column;
-  padding: var(--padding-10xs) 0 var(--padding-151xl) var(--padding-10xs);
-  gap: var(--gap-lg);
-}
-.frame-container,
-.rectangle-container,
-.services-content {
+.rectangle-parent1,
+.u-k-universities-logos,
+.u-k-universities-title {
+  align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frame-container {
-  align-self: stretch;
+.rectangle-parent1 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 var(--padding-151xl) var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+.u-k-universities-logos {
+  flex: 1;
   display: grid;
   flex-direction: row;
-  align-items: flex-start;
   gap: var(--gap-10xl);
   grid-template-columns: repeat(3, minmax(323px, 1fr));
 }
-.services-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 54px;
-}
-.services-content-wrapper {
+.u-k-universities-logos-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -490,7 +608,7 @@
   object-fit: cover;
   z-index: 1;
 }
-.rectangle-div {
+.frame-child3 {
   width: 431px;
   height: 700px;
   position: relative;
@@ -501,14 +619,10 @@
   max-width: 100%;
 }
 .carrer-consultant {
-  margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: inherit;
   line-height: 49px;
-  font-style: italic;
   font-weight: 700;
-  font-family: inherit;
   z-index: 1;
 }
 .we-offers-personalized {
@@ -521,7 +635,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.we-offers-personalized-guidanc-wrapper {
+.u-k-universities-second-row {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-8xs);
@@ -529,15 +643,15 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.consultant-icons,
-.rectangle-parent1,
-.we-offers-personalized-guidanc-wrapper {
+.career-counseling-56a0f2ae5f9b-parent,
+.rectangle-parent2,
+.u-k-universities-second-row {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.rectangle-parent1 {
+.rectangle-parent2 {
   flex: 1;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-3xs);
@@ -547,11 +661,11 @@
   box-sizing: border-box;
   gap: var(--gap-5xl);
 }
-.consultant-icons {
+.career-counseling-56a0f2ae5f9b-parent {
   flex-direction: row;
   position: relative;
 }
-.frame-child1 {
+.frame-child4 {
   align-self: stretch;
   height: 700px;
   position: relative;
@@ -575,12 +689,8 @@
   object-fit: cover;
 }
 .interview-preparaton {
-  margin: 0;
-  font-size: inherit;
   line-height: 100%;
-  font-style: italic;
   font-weight: 700;
-  font-family: inherit;
 }
 .we-equips-individuals {
   flex: 1;
@@ -591,7 +701,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.we-equips-individuals-with-ski-wrapper {
+.u-k-universities-third-row {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 var(--padding-mid);
@@ -599,30 +709,30 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.frame-wrapper1,
-.interview-preparaton-parent,
-.rectangle-parent2,
-.we-equips-individuals-with-ski-wrapper {
+.rectangle-parent3,
+.u-k-universities-third-row,
+.u-k-universities-wrapper,
+.u-k-universities1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.interview-preparaton-parent {
+.u-k-universities1 {
   flex: 1;
   flex-direction: column;
   gap: 41px;
 }
-.frame-wrapper1,
-.rectangle-parent2 {
+.rectangle-parent3,
+.u-k-universities-wrapper {
   box-sizing: border-box;
 }
-.frame-wrapper1 {
+.u-k-universities-wrapper {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-mid) 0 var(--padding-2xs);
 }
-.rectangle-parent2 {
+.rectangle-parent3 {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
@@ -631,12 +741,12 @@
   gap: var(--gap-mini);
 }
 .download-2-icon,
-.frame-child2 {
+.frame-child5 {
   align-self: stretch;
   position: relative;
   border-radius: var(--br-3xs);
 }
-.frame-child2 {
+.frame-child5 {
   height: 700px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--color-white);
@@ -657,12 +767,8 @@
   z-index: 1;
 }
 .scholarship {
-  margin: 0;
   align-self: stretch;
-  font-size: inherit;
   line-height: 49px;
-  font-style: italic;
-  font-family: inherit;
 }
 .we-connects-students {
   flex: 1;
@@ -670,7 +776,14 @@
   display: inline-block;
   max-width: 100%;
 }
-.we-connects-students-with-fund-wrapper {
+.u-s-a-universities-inner,
+.u-s-a-universities-logos-first {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.u-s-a-universities-logos-first {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-11xs) 0 var(--padding-5xs);
@@ -678,57 +791,52 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.footer-navigation-inner,
-.rectangle-parent3,
-.u-k-universities-second-row-th,
-.we-connects-students-with-fund-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.footer-navigation-inner {
+.u-s-a-universities-inner {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-5xl);
 }
-.rectangle-parent3,
-.u-k-universities-second-row-th {
-  box-sizing: border-box;
-}
-.u-k-universities-second-row-th {
+.u-k-third-logo-container {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
   padding: 0 var(--padding-lg) 0 var(--padding-mid);
+  box-sizing: border-box;
 }
-.rectangle-parent3 {
+.rectangle-parent4,
+.u-k-third-logo-container,
+.u-k-universities-second-row-in {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent4 {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
+  display: flex;
   flex-direction: column;
   padding: 0 0 var(--padding-151xl);
+  box-sizing: border-box;
   gap: var(--gap-mini);
   min-height: 700px;
 }
-.consultant-icons-parent,
-.landing-page-01-child {
-  flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.consultant-icons-parent {
+.u-k-universities-second-row-in {
   flex: 1;
   display: grid;
-  justify-content: flex-start;
+  flex-direction: row;
   gap: 30.5px;
   grid-template-columns: repeat(3, minmax(323px, 1fr));
 }
-.landing-page-01-child {
+.u-k-universities-second-row-in-wrapper {
   align-self: stretch;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-end;
   padding: 0 var(--padding-xl) var(--padding-55xl) var(--padding-5xl);
   box-sizing: border-box;
+  max-width: 100%;
   text-align: center;
   font-size: var(--font-size-13xl);
   color: var(--color-black);
@@ -758,12 +866,8 @@
   object-fit: cover;
 }
 .aid-in-assessment {
-  margin: 0;
-  font-size: inherit;
   line-height: 49px;
-  font-style: italic;
   font-weight: 700;
-  font-family: inherit;
 }
 .we-supports-individuals {
   width: 386px;
@@ -776,7 +880,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.assessment-types {
+.u-s-a-universities-logos-secon {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -785,28 +889,28 @@
   gap: var(--gap-11xl);
   max-width: 100%;
 }
-.assessment-titles,
-.services {
-  display: flex;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.assessment-titles {
+.u-s-a-universities-logos-secon-wrapper {
   width: 418px;
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
   padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
 }
-.services {
+.services1 {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
   padding: 0 0 104px;
+  box-sizing: border-box;
   gap: var(--gap-mini);
+  max-width: 100%;
 }
 .images-1-1,
 .services-item {
@@ -836,13 +940,9 @@
   z-index: 1;
 }
 .assisting-with-accomodation {
-  margin: 0;
   width: 396px;
-  font-size: inherit;
   line-height: 100%;
   display: flex;
-  font-style: italic;
-  font-family: inherit;
   align-items: center;
   justify-content: center;
 }
@@ -851,7 +951,7 @@
   line-height: 150%;
   display: inline-block;
 }
-.u-k-universities-third-row-sec {
+.u-s-a-universities-logos-secon1 {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
@@ -860,20 +960,20 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.u-k-universities,
-.u-k-universities-third-row-sec,
-.u-k-universities-title {
+.assisting-with-accomodation-parent,
+.u-k-grid,
+.u-s-a-universities-logos-secon1 {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.u-k-universities {
+.assisting-with-accomodation-parent {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: 9px;
 }
-.u-k-universities-title {
+.u-k-grid {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
@@ -881,12 +981,12 @@
   box-sizing: border-box;
 }
 .services-inner,
-.services1 {
+.services2 {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
 }
-.services1 {
+.services2 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -917,12 +1017,8 @@
   object-fit: cover;
 }
 .institution-selection {
-  margin: 0;
-  font-size: inherit;
   line-height: 49px;
-  font-style: italic;
   font-weight: 700;
-  font-family: inherit;
 }
 .we-assists-students1 {
   flex: 1;
@@ -933,7 +1029,14 @@
   max-width: 100%;
   z-index: 1;
 }
-.u-k-universities-second-row {
+.services-content,
+.u-s-a-universities-logos-secon2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.u-s-a-universities-logos-secon2 {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 var(--padding-sm);
@@ -941,77 +1044,68 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.services2,
-.u-k-universities-second-row,
-.u-k-universities-third-row,
-.u-s-a-universities-inner {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.u-s-a-universities-inner {
+.services-content {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-11xl);
 }
-.services2,
-.u-k-universities-third-row {
-  box-sizing: border-box;
-}
-.u-k-universities-third-row {
+.description-container {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
   padding: 0 var(--padding-lgi) 0 var(--padding-xs);
+  box-sizing: border-box;
 }
-.services2 {
+.description-container,
+.services3,
+.u-k-universities-third-row-inn {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.services3 {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
+  display: flex;
   flex-direction: column;
   padding: 0 0 var(--padding-55xl);
+  box-sizing: border-box;
   gap: var(--gap-mini);
 }
-.frame-section,
-.services-parent {
-  flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.services-parent {
+.u-k-universities-third-row-inn {
   flex: 1;
   display: grid;
-  justify-content: flex-start;
+  flex-direction: row;
   gap: var(--gap-13xl);
   grid-template-columns: repeat(3, minmax(323px, 1fr));
 }
-.frame-section {
+.u-k-universities-third-row-inn-wrapper {
   align-self: stretch;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-end;
   padding: 0 var(--padding-xl) 142px var(--padding-2xl);
   box-sizing: border-box;
+  max-width: 100%;
   text-align: center;
   font-size: var(--font-size-13xl);
   color: var(--color-black);
   font-family: var(--font-inria-serif);
 }
 .top-uk-universities {
-  margin: 0;
   width: 771px;
   position: relative;
-  font-size: inherit;
   text-decoration: underline;
   line-height: 150%;
-  font-weight: 700;
-  font-family: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   max-width: 100%;
 }
-.u-s-a-universities-logos-first {
+.u-s-a-universities-logos-first1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -1056,20 +1150,17 @@
   min-height: 163px;
   max-width: 100%;
 }
-.u-k-universities-logos {
+.u-s-a-universities-logos-first2 {
+  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  max-width: 100%;
   gap: var(--gap-xl);
 }
-.e-9-1-icon,
-.u-k-content,
-.u-k-universities-logos {
+.u-s-a-universities-logos-first-parent {
   align-self: stretch;
-  max-width: 100%;
-}
-.u-k-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1077,15 +1168,18 @@
   padding: 0 0 var(--padding-mini);
   box-sizing: border-box;
   gap: 40px;
+  max-width: 100%;
 }
 .e-9-1-icon {
+  align-self: stretch;
   flex: 1;
   position: relative;
+  max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
-.u-k-logo-container {
+.e-9-1-wrapper {
   height: 146px;
   width: 299px;
   display: flex;
@@ -1110,34 +1204,35 @@
   flex: 1;
   overflow: hidden;
 }
-.u-k-third-logo-container {
+.e-4-1-wrapper,
+.u-s-a-universities-logos-secon3 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.e-4-1-wrapper {
   height: 166px;
   width: 349px;
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-10xs) 0 0;
   box-sizing: border-box;
-  max-width: 100%;
 }
-.u-k-grid,
-.u-k-universities-second-row-in {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.u-k-universities-second-row-in {
+.u-s-a-universities-logos-secon3 {
   flex: 1;
+  flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.u-k-grid {
+.u-s-a-universities-logos-secon-container {
   width: 1188px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-end;
   padding: 0 var(--padding-11xs);
   box-sizing: border-box;
+  max-width: 100%;
 }
 .uk00-1-icon {
   align-self: stretch;
@@ -1148,7 +1243,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.u-s-a-universities-logos-secon2 {
+.third-and-fourth-logos {
   height: 145px;
   width: 315px;
   display: flex;
@@ -1168,25 +1263,25 @@
   min-height: 164px;
   max-width: 100%;
 }
-.u-k-universities-third-row-inn,
-.u-s-a-universities-logos-secon1 {
+.first-logo-row,
+.u-s-a-universities-logos-secon4 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.u-k-universities-third-row-inn {
+.u-s-a-universities-logos-secon4 {
   flex: 1;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.u-s-a-universities-logos-secon1 {
+.first-logo-row {
   width: 1209px;
   justify-content: flex-end;
   padding: 0 var(--padding-11xs);
   box-sizing: border-box;
 }
-.u-k-universities1 {
+.frame-parent1 {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -1195,7 +1290,7 @@
   gap: 76px;
   max-width: 100%;
 }
-.u-k-universities-wrapper {
+.landing-page-01-child {
   width: 1368px;
   display: flex;
   flex-direction: row;
@@ -1210,20 +1305,16 @@
   font-family: var(--font-inria-serif);
 }
 .top-usa-universities {
-  margin: 0;
   width: 771px;
   position: relative;
-  font-size: inherit;
   line-height: 150%;
-  font-weight: 700;
-  font-family: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   max-width: 100%;
 }
-.u-s-a-universities-logos-first1 {
+.top-usa-universities-wrapper {
   width: 1177px;
   display: flex;
   flex-direction: row;
@@ -1242,7 +1333,7 @@
   max-height: 100%;
   object-fit: contain;
 }
-.description-container {
+.about-title {
   height: 149px;
   width: 333px;
   display: flex;
@@ -1262,7 +1353,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.u-s-a-universities-title {
+.fx45dti-1-wrapper {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -1282,26 +1373,26 @@
   object-fit: contain;
   min-width: 240px;
 }
-.u-s-a-universities-logos-first2 {
+.about-title-parent {
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
   gap: var(--gap-48xl);
 }
-.u-s-a-universities-logos-first2,
-.u-s-content,
-.u-s-universities {
+.about-title-parent,
+.frame-parent2,
+.frame-section {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.u-s-content {
+.frame-parent2 {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: 87px;
 }
-.u-s-universities {
+.frame-section {
   width: 1362px;
   flex-direction: row;
   justify-content: flex-end;
@@ -1338,7 +1429,7 @@
   flex: 1;
   overflow: hidden;
 }
-.second-logo-container {
+.double-image {
   height: 142px;
   width: 362px;
   display: flex;
@@ -1357,18 +1448,18 @@
   min-height: 142px;
   max-width: 100%;
 }
-.first-logo-row,
-.u-s-a-universities-logos-secon3 {
+.image-row,
+.image-row-wrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.u-s-a-universities-logos-secon3 {
+.image-row {
   justify-content: flex-start;
   gap: var(--gap-48xl);
 }
-.first-logo-row {
+.image-row-wrapper {
   justify-content: flex-end;
   padding: 0 var(--padding-4xs) 0 0;
   box-sizing: border-box;
@@ -1382,7 +1473,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.fourth-logo-container {
+.single-logo {
   height: 193px;
   width: 314px;
   display: flex;
@@ -1401,7 +1492,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.third-and-fourth-logos {
+.logo-pair {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -1421,7 +1512,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.third-and-fourth-logos1 {
+.logo-pair1 {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -1432,53 +1523,49 @@
   min-width: 240px;
   max-width: 100%;
 }
-.u-s-a-universities-logos-secon4,
+.frame-parent3,
 .university-logos {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
   max-width: 100%;
 }
-.u-s-a-universities-logos-secon4 {
+.university-logos {
   width: 1204px;
   flex-direction: row;
   gap: 72px;
 }
-.university-logos {
+.frame-parent3 {
   flex-direction: column;
   gap: 91px;
 }
-.bottom-universities {
+.landing-page-01-inner1 {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   padding: 0 var(--padding-xl) 210px 30px;
   box-sizing: border-box;
-}
-.about-title,
-.bottom-universities,
-.who-we-are {
-  display: flex;
   max-width: 100%;
 }
 .who-we-are {
-  margin: 0;
   width: 399px;
   position: relative;
-  font-size: inherit;
   line-height: 150%;
-  font-weight: 700;
-  font-family: inherit;
+  display: flex;
   align-items: center;
   flex-shrink: 0;
+  max-width: 100%;
   z-index: 4;
 }
-.about-title {
+.who-we-are-wrapper {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
+  max-width: 100%;
 }
 .we-are-settling {
   width: 510px;
@@ -1491,27 +1578,38 @@
   max-width: 100%;
   z-index: 4;
 }
-.about-content,
-.about-content-wrapper {
+.about-us,
+.frame-parent4 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  max-width: 100%;
 }
-.about-content {
+.frame-parent4 {
   width: 1257px;
   flex-direction: column;
   gap: 25px;
-  max-width: 100%;
 }
-.about-content-wrapper {
+.about-us {
+  align-self: stretch;
   flex-direction: row;
   padding: 0 58px 248px;
+  box-sizing: border-box;
   text-align: left;
-  font-size: 36px;
+  font-size: var(--font-size-17xl);
   color: var(--color-white);
   font-family: var(--font-inria-serif);
 }
-.about-content-wrapper,
+.landing-page-01-item {
+  width: 1929.5px;
+  height: 169px;
+  position: absolute;
+  margin: 0 !important;
+  top: 715px;
+  right: -370.5px;
+  border-radius: 600px;
+  z-index: 1;
+}
 .divider-wrapper,
 .divider1 {
   align-self: stretch;
@@ -1531,25 +1629,22 @@
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-mid);
 }
-.settling-abroad1 {
-  margin: 0;
+.settling-abroad1,
+.topic3,
+.topic4,
+.topic5 {
   position: relative;
-  font-size: inherit;
   line-height: 150%;
-  font-weight: 700;
-  font-family: inherit;
 }
 .topic3,
 .topic4,
 .topic5 {
   flex: 1;
-  position: relative;
-  line-height: 150%;
   font-weight: 500;
   display: inline-block;
   min-width: 32px;
 }
-.topics {
+.topic-list {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -1557,13 +1652,13 @@
   justify-content: flex-start;
   gap: var(--gap-10xl-5);
 }
-.brand-info,
-.footer-navigation {
+.footer-columns,
+.footer-links {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.footer-navigation {
+.footer-links {
   width: 620px;
   flex-direction: column;
   justify-content: flex-start;
@@ -1572,7 +1667,7 @@
   font-size: var(--small-text-size);
   font-family: var(--small-text);
 }
-.brand-info {
+.footer-columns {
   width: 1238px;
   flex-direction: row;
   justify-content: space-between;
@@ -1602,7 +1697,7 @@
   line-height: 150%;
   white-space: nowrap;
 }
-.footer-content2 {
+.number-pair {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -1610,29 +1705,29 @@
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-11xs);
 }
-.phone-number2 {
+.phone-number1 {
   align-self: stretch;
   position: relative;
   line-height: 150%;
   white-space: nowrap;
 }
-.phone-number-details,
-.phone-number1 {
+.phone-numbers,
+.phone-numbers-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.phone-number-details {
+.phone-numbers {
   align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-lg);
 }
-.phone-number1 {
+.phone-numbers-wrapper {
   flex: 1;
   justify-content: flex-end;
   padding: 0 0 var(--padding-smi);
 }
-.whatsapp-icons-parent {
+.social-media {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -1647,7 +1742,7 @@
   object-fit: cover;
   z-index: 2;
 }
-.email-icon {
+.button-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1659,35 +1754,34 @@
   position: relative;
   line-height: 150%;
 }
-.email,
-.email-details {
+.button-container {
+  flex: 1;
   display: flex;
   flex-direction: row;
-}
-.email-details {
-  flex: 1;
   align-items: flex-end;
   justify-content: flex-start;
   gap: var(--gap-13xl);
 }
-.email {
+.download-button {
   width: 275px;
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
   padding: 0 var(--padding-11xs);
   box-sizing: border-box;
 }
 .contact-details1,
-.contact-methods {
+.contact-info1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.contact-methods {
+.contact-details1 {
   align-self: stretch;
   align-items: flex-end;
 }
-.contact-details1 {
+.contact-info1 {
   width: 297px;
   align-items: flex-start;
   padding: var(--padding-xs) 0 0;
@@ -1702,7 +1796,7 @@
   line-height: 150%;
   font-weight: 500;
 }
-.home-group {
+.page-links {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -1736,7 +1830,7 @@
   line-height: 150%;
   font-weight: 500;
 }
-.contact-info2 {
+.email-details {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -1745,14 +1839,14 @@
   gap: var(--gap-5xl);
   min-width: 140px;
 }
-.contact-info1,
-.page-links {
+.contact2,
+.page-navigation {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.page-links {
+.page-navigation {
   width: 620px;
   justify-content: flex-start;
   gap: var(--gap-10xl-5);
@@ -1761,7 +1855,7 @@
   color: var(--color-darkslategray);
   font-family: var(--small-text);
 }
-.contact-info1 {
+.contact2 {
   align-self: stretch;
   justify-content: space-between;
   gap: var(--gap-xl);
@@ -1790,8 +1884,7 @@
   align-self: stretch;
   border-radius: var(--br-3xs);
   align-items: flex-start;
-  padding: var(--padding-12xs) var(--padding-19xl) var(--padding-20xl)
-    var(--padding-44xl);
+  padding: var(--padding-12xs) 38px var(--padding-20xl) var(--padding-44xl);
   gap: var(--gap-25xl);
   max-width: 100%;
   text-align: left;
@@ -1809,87 +1902,115 @@
   letter-spacing: normal;
 }
 @media screen and (max-width: 1225px) {
-  .u-k-universities-logos,
-  .u-k-universities-second-row-in {
+  .about-content,
+  .frame-div {
+    flex: 1;
+  }
+  .rectangle-parent {
+    flex-wrap: wrap;
+  }
+  .u-s-a-universities-logos-first2,
+  .u-s-a-universities-logos-secon3 {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .u-k-universities-third-row-inn {
+  .u-s-a-universities-logos-secon4 {
     flex-wrap: wrap;
   }
-  .u-k-universities-wrapper,
-  .u-s-universities {
+  .frame-section,
+  .landing-page-01-child {
     padding-left: var(--padding-15xl);
     padding-right: var(--padding-15xl);
     box-sizing: border-box;
   }
-  .u-s-universities {
+  .frame-section {
     padding-left: var(--padding-21xl);
     padding-right: var(--padding-21xl);
   }
-  .u-s-a-universities-logos-secon3 {
+  .image-row {
     flex-wrap: wrap;
   }
-  .about-content-wrapper {
+  .about-us {
     padding-left: var(--padding-10xl);
     padding-right: var(--padding-10xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1050px) {
-  .u-s-a-universities-logos-secon-inner {
+  .u-s-content-wrapper {
     display: none;
   }
-  .frame-container {
+  .u-k-universities-logos,
+  .u-k-universities-second-row-in,
+  .u-k-universities-third-row-inn {
     justify-content: center;
     grid-template-columns: repeat(2, minmax(323px, 560px));
   }
-  .services-content-wrapper {
-    padding-bottom: var(--padding-29xl);
-    box-sizing: border-box;
-  }
-  .consultant-icons-parent,
-  .services-parent {
-    justify-content: center;
-    grid-template-columns: repeat(2, minmax(323px, 560px));
-  }
-  .frame-section {
+  .u-k-universities-third-row-inn-wrapper {
     padding-bottom: 92px;
     box-sizing: border-box;
   }
-  .u-k-universities-wrapper {
+  .landing-page-01-child {
     padding-bottom: 99px;
     box-sizing: border-box;
   }
-  .u-s-a-universities-title,
+  .fx45dti-1-wrapper,
   .universityofpennsylvania-fulll-icon {
     flex: 1;
   }
-  .u-s-a-universities-logos-first2 {
+  .about-title-parent {
     flex-wrap: wrap;
   }
-  .third-and-fourth-logos,
-  .third-and-fourth-logos1 {
+  .logo-pair,
+  .logo-pair1 {
     flex: 1;
   }
-  .brand-info,
-  .u-s-a-universities-logos-secon4 {
+  .footer-columns,
+  .university-logos {
     flex-wrap: wrap;
   }
-  .contact-details1,
-  .page-links {
+  .contact-info1,
+  .page-navigation {
     flex: 1;
   }
-  .contact-info1 {
+  .contact2 {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 750px) {
-  .u-s-a-universities-logos-secon {
+  .u-k-universities {
     gap: var(--gap-5xl);
   }
   .landing-page-01-inner {
-    padding-bottom: var(--padding-21xl);
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .abroad,
+  .settling {
+    font-size: var(--font-size-10xl);
+    line-height: 43px;
+  }
+  .acino-your-study {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .u-k-content {
+    gap: var(--gap-4xl);
+  }
+  .frame-container {
+    gap: var(--gap-17xl);
+    padding-top: 90px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frame-div {
+    min-width: 100%;
+  }
+  .rectangle-parent {
+    padding-left: 46px;
+    padding-top: var(--padding-6xl);
+    padding-bottom: 61px;
     box-sizing: border-box;
   }
   .our-services,
@@ -1897,7 +2018,7 @@
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .rectangle-parent {
+  .rectangle-group {
     padding-top: var(--padding-xl);
     padding-bottom: 91px;
     box-sizing: border-box;
@@ -1906,7 +2027,7 @@
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .rectangle-group {
+  .rectangle-container {
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-52xl);
     box-sizing: border-box;
@@ -1915,22 +2036,23 @@
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .rectangle-container {
+  .rectangle-parent1 {
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-91xl);
     box-sizing: border-box;
   }
-  .frame-container {
+  .u-k-universities-logos {
     grid-template-columns: minmax(323px, 1fr);
   }
-  .services-content {
-    gap: 27px;
+  .u-k-universities-logos-wrapper {
+    padding-bottom: var(--padding-29xl);
+    box-sizing: border-box;
   }
   .carrer-consultant {
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .rectangle-parent1 {
+  .rectangle-parent2 {
     padding-top: 180px;
     padding-bottom: var(--padding-52xl);
     box-sizing: border-box;
@@ -1939,7 +2061,7 @@
     font-size: var(--font-size-7xl);
     line-height: 26px;
   }
-  .rectangle-parent2 {
+  .rectangle-parent3 {
     padding-bottom: var(--padding-52xl);
     box-sizing: border-box;
   }
@@ -1947,15 +2069,15 @@
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .rectangle-parent3 {
+  .rectangle-parent4 {
     padding-bottom: var(--padding-91xl);
     box-sizing: border-box;
   }
-  .consultant-icons-parent {
+  .u-k-universities-second-row-in {
     gap: var(--gap-mini);
     grid-template-columns: minmax(323px, 1fr);
   }
-  .landing-page-01-child {
+  .u-k-universities-second-row-in-wrapper {
     padding-bottom: var(--padding-29xl);
     box-sizing: border-box;
   }
@@ -1963,7 +2085,7 @@
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .services {
+  .services1 {
     padding-bottom: var(--padding-49xl);
     box-sizing: border-box;
   }
@@ -1971,7 +2093,7 @@
     font-size: var(--font-size-7xl);
     line-height: 26px;
   }
-  .services1 {
+  .services2 {
     padding-bottom: var(--padding-29xl);
     box-sizing: border-box;
   }
@@ -1979,11 +2101,11 @@
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .services2 {
+  .services3 {
     padding-bottom: var(--padding-29xl);
     box-sizing: border-box;
   }
-  .services-parent {
+  .u-k-universities-third-row-inn {
     gap: var(--gap-base);
     grid-template-columns: minmax(323px, 1fr);
   }
@@ -1991,40 +2113,40 @@
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .u-k-content {
+  .u-s-a-universities-logos-first-parent {
     gap: var(--gap-xl);
   }
-  .u-k-universities1 {
+  .frame-parent1 {
     gap: 38px;
   }
   .top-usa-universities {
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .u-s-a-universities-logos-first2 {
+  .about-title-parent {
     gap: var(--gap-14xl);
   }
-  .u-s-content {
+  .frame-parent2 {
     gap: 43px;
   }
-  .u-s-a-universities-logos-secon3 {
+  .image-row {
     gap: var(--gap-14xl);
   }
-  .u-s-a-universities-logos-secon4 {
-    gap: 36px;
-  }
   .university-logos {
+    gap: var(--gap-17xl);
+  }
+  .frame-parent3 {
     gap: 45px;
   }
-  .bottom-universities {
+  .landing-page-01-inner1 {
     padding-bottom: 136px;
     box-sizing: border-box;
   }
   .who-we-are {
-    font-size: 29px;
+    font-size: var(--font-size-10xl);
     line-height: 43px;
   }
-  .about-content-wrapper {
+  .about-us {
     padding-bottom: 161px;
     box-sizing: border-box;
   }
@@ -2032,11 +2154,11 @@
     font-size: var(--font-size-7xl);
     line-height: 38px;
   }
-  .page-links,
-  .topics {
+  .topic-list {
     flex-wrap: wrap;
   }
-  .page-links {
+  .page-navigation {
+    flex-wrap: wrap;
     min-width: 100%;
   }
   .footer1 {
@@ -2046,8 +2168,21 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .home-parent {
-    display: none;
+  .abroad,
+  .settling {
+    font-size: var(--font-size-3xl);
+    line-height: 32px;
+  }
+  .acino-your-study {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .frame-container {
+    gap: var(--gap-lg);
+  }
+  .rectangle-parent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
   }
   .our-services,
   .study-visa {
@@ -2074,7 +2209,7 @@
     font-size: var(--small-text-size);
     line-height: 24px;
   }
-  .services-content-wrapper {
+  .u-k-universities-logos-wrapper {
     padding-bottom: var(--padding-12xl);
     box-sizing: border-box;
   }
@@ -2094,7 +2229,7 @@
     font-size: var(--small-text-size);
     line-height: 24px;
   }
-  .interview-preparaton-parent {
+  .u-k-universities1 {
     gap: var(--gap-xl);
   }
   .scholarship {
@@ -2105,7 +2240,7 @@
     font-size: var(--small-text-size);
     line-height: 24px;
   }
-  .landing-page-01-child {
+  .u-k-universities-second-row-in-wrapper {
     padding-bottom: var(--padding-12xl);
     box-sizing: border-box;
   }
@@ -2133,7 +2268,7 @@
     font-size: var(--small-text-size);
     line-height: 24px;
   }
-  .frame-section {
+  .u-k-universities-third-row-inn-wrapper {
     padding-bottom: 60px;
     box-sizing: border-box;
   }
@@ -2141,10 +2276,10 @@
     font-size: var(--font-size-lgi);
     line-height: 29px;
   }
-  .u-k-universities1 {
+  .frame-parent1 {
     gap: 19px;
   }
-  .u-k-universities-wrapper {
+  .landing-page-01-child {
     padding-bottom: 64px;
     box-sizing: border-box;
   }
@@ -2152,27 +2287,27 @@
     font-size: var(--font-size-lgi);
     line-height: 29px;
   }
-  .u-s-a-universities-logos-first2 {
+  .about-title-parent {
     gap: var(--gap-mid);
   }
-  .u-s-content {
+  .frame-parent2 {
     gap: var(--gap-3xl);
   }
-  .u-s-universities {
+  .frame-section {
     padding-bottom: 67px;
     box-sizing: border-box;
   }
-  .u-s-a-universities-logos-secon3 {
+  .image-row {
     gap: var(--gap-mid);
   }
-  .u-s-a-universities-logos-secon4 {
+  .university-logos {
     gap: var(--gap-lg);
   }
-  .university-logos {
-    gap: 23px;
+  .frame-parent3 {
+    gap: var(--gap-4xl);
   }
   .who-we-are {
-    font-size: 22px;
+    font-size: var(--font-size-3xl);
     line-height: 32px;
   }
   .we-are-settling {
@@ -2184,12 +2319,12 @@
     line-height: 29px;
   }
   .phone-number-prefix,
-  .phone-number2,
+  .phone-number1,
   .settlingabroad-1 {
     font-size: var(--small-text-size);
     line-height: 24px;
   }
-  .email-details {
+  .button-container {
     gap: var(--gap-base);
   }
 }
