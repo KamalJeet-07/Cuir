@@ -113,7 +113,7 @@
 .frame-wrapper {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 7px 0 var(--padding-11xs);
+  padding: 0 var(--padding-6xs) 0 var(--padding-11xs);
   box-sizing: border-box;
   font-size: var(--font-size-13xl);
 }
@@ -537,7 +537,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 57px 72px;
+  padding: 0 57px var(--padding-53xl);
   flex-shrink: 0;
 }
 .divider {
